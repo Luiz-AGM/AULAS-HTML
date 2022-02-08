@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color:  #132e4c;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.foto1 {
+    background-color: white;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.foto1 :hover {
+    background-image:url(imagens/lamp.hover.png);
+    border-radius: 100%;
+}
