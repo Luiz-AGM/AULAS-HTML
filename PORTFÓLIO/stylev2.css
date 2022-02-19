@@ -15,59 +15,110 @@ body {
     text-align: center;
 }
 
-.box1 {
+.nav {
+    display: flex;
+    width: 300px;
+    align-self: flex-end;
+    color: #EEEEEE;
+    background: #393E46;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #EEEEEE;
+    text-decoration: none
+}
+
+.boxinfo {
 	flex: 1;
     margin: 10px;
 	background: #393E46;
+    border-radius: 100px;
 	text-align: center;
     align-content: center;
 }
 
-.box2 {
+.boxsobre {
 	flex: 1;
     margin: 10px;
 	background: #00ADB5;
     align-content: center;
-    text-align: center;  
+    text-align: center;
+    border-radius: 30px;
 }
 
-.box3 {
-	flex: 1;
+.boxformacao {
     margin: 10px;
+    width: 500px;
 	background: #EEEEEE;
     align-content: center;
-    text-align: center; 
+    text-align: center;
+    align-self: center;
+    border-radius: 30px;
 }
 
-.box4 {
+.boxprojetos {
     margin: 10px;
 	background: #393E46;
     align-content: center;
     align-items: center;
+    border-radius: 30px;
 }
 
-.box5 {
+.boxgithub {
     margin: 10px;
+    width: 500px;
 	background: #00ADB5;
     align-content: center;
+    align-self: center;
+    border-radius: 50px;
 }
 
-.box6 {
+.boxredes {
     margin: 10px;
+    padding-bottom: 20px;
+    width: 500px;
 	background: #00ADB5;
     align-content: center;
+    align-self: center;
+    border-radius: 60px;
 }
 
-.box7 {
+.boxcontatos {
     margin: 10px;
+    width: 500px;
 	background: #EEEEEE;
     align-content: center;
+    align-self: center;
+    border-radius: 100%;
+}
+
+.rodape {
+    width: 450px;
+    background: #393E46;
+    align-self: center;
+    border-radius: 30px;
+}
+
+h1 {
+    color: #00ADB5;
 }
 
 h3 {
     text-align: center;
     text-decoration: underline;
-    text-decoration-color: blue;
+    text-decoration-color: rgb(0, 81, 255);
+}
+
+h4 {
+    color: #EEEEEE;
+    text-decoration: underline;
+    text-decoration-color: #00ADB5;
+}
+
+p {
+    color:#EEEEEE
 }
 
 .nome {
@@ -86,7 +137,7 @@ ul {
 }
 
 .projimagem {
-    width: 200px;
+    width: 150px;
     height: 150px;
 }
 
@@ -99,5 +150,4 @@ ul {
 
 .rodape {
     font-size: small;
-    color: aliceblue;
 }
