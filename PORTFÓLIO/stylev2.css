@@ -30,6 +30,10 @@ body {
     text-decoration: none
 }
 
+.nav a:hover {
+    color: #00ADB5;
+}
+
 .boxinfo {
 	flex: 1;
     margin: 10px;
