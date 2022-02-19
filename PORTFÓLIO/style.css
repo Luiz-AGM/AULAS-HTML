@@ -10,8 +10,6 @@ body {
 }
 
 a{
-    text-decoration: none;
-    color: black;
     padding-left: 30px;
 }
 
@@ -21,7 +19,7 @@ a{
 }
 
 .cargo {
-    padding-left: 150px;
+    padding-left: 200px;
 }
 
 .sobre {
@@ -29,7 +27,7 @@ a{
 }
 
 .fotoP {
-    border-radius: 100%;
+    padding-left: 270px;
 }
 
 .projimagem {
